@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<title>About Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body id="myPage">
+
+
+<!-- Navbar -->
+<div class="w3-top">
+ <ul class="w3-navbar w3-theme-d2 w3-left-align">
+  <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+    <a class="w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  </li>
+  <li><a href="../index.php" class="w3-teal"><i class="fa fa-home w3-margin-right"></i>Pierce</a></li>
+  <li class="w3-hide-small"><a href="#team" class="w3-hover-white">Home</a></li>
+  <li class="w3-hide-small"><a href="#work" class="w3-hover-white">Products</a></li>
+
+  <li class="w3-hide-small"><a href="contact.html#contact" class="w3-hover-white">Contact</a></li>
+
+   </ul>
+
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="fool.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+</div>
+
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>Meet the team - behind the scenes</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter" style="margin-right: 150px; margin-left: 226px;">
+  <img src="hk.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>HIMANSHU KUMAR</h3>
+  <p>Web Designer</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="mk1.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>MOHNISH KATWARE</h3>
+  <p>Graphic Designer</p>
+</div>
+
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>PIERCEMAN ELECTRONICS aims at giving you place to enjoy shopping sitting at home. With our secure transactions and payment gateway free feel to shop for the ones you care about surprise them.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card-2 w3-white">
+  <img src="ali.jpg"  style="width: 30%;margin-left: 105px">
+  <div class="w3-container">
+  <h3>Ileana D'cruz</h3>
+  <h4>IPAD</h4>
+  <p>DOORSTEP service</p>
+  <p>Quick delivery</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card-2 w3-white">
+  <img src="ran.jpg"  style="    width: 31%;margin-left: 105px;">
+  <div class="w3-container">
+  <h3>Ranbir Kapoor</h3>
+  <h4>Iphone 7</h4>
+  <p>Jet Black edition</p>
+  <p>Customised for me</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card-2 w3-white">
+  <img src="vk.png"  style="width: 31%;margin-left: 105px;">
+  <div class="w3-container">
+  <h3>Virat Kohli</h3>
+  <h4>Surprise</h4>
+  <p>Beats headphones</p>
+  <p>thanks Anushka and pierce electronics</p>
+  </div>
+  </div>
+</div>
+
+</div>
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact" name="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>visit us for any query.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>VESIT, CHEMBUR, MUMBAI </p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>+91 9673651166</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>admin@pierce.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action='https://www.getform.org/f/819312fa-8d64-4569-8cf5-d9b47c9a888e' method="POST">
+      <div class="w3-group">
+        <label class="w3-label">Name</label>
+        <input class="w3-input" type="text">
+      </div>
+      <div class="w3-group">
+        <label class="w3-label">Email</label>
+        <input class="w3-input" type="text">
+      </div>
+      <div class="w3-group">
+        <label class="w3-label">Subject</label>
+        <input class="w3-input" type="text">
+      </div>
+      <input class="w3-check" type="checkbox" checked>
+      <label class="w3-validate">I Like it!</label>
+      <button type="submit" class="w3-btn w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Google Maps -->
+<div id="googleMap" style="width:100%;height:420px;"></div>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(19.0759840, 72.8776560);
+
+function initialize() {
+var mapProp = {
+  center: myCenter,
+  zoom: 5,
+  scrollwheel: false,
+  draggable: false,
+  mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position: myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-btn-floating w3-teal" href="https://www.facebook.com/mohnish.katware" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-btn-floating w3-teal" href="https://twitter.com/f4f0c2ac7fdd4ae" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-btn-floating w3-teal" href="https://plus.google.com/102210426280266526484" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-btn-floating w3-teal w3-hide-small" href="in.linkedin.com/in/mohnish-katware-1a977910b" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>------------Made with &#10084; by <a href="pierce.com" target="_blank">pierce</a>------------</p>
+
+  </div>
+</footer>
+
+</body>
+</html>

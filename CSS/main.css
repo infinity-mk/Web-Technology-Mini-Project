@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+  --bg: #212121;
+  --nc: #F5F5F5;
+  --bo: #2d6898;
+}
+
+
+back{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:1;
+}
+
+#back1{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%
+}
+
+#logo{
+	position:absolute;
+	left:30%;
+	top:15%;
+	width:40%;
+	height:20%;
+	z-index:2;
+  text-align: center;
+  display: block;
+  border: 1px solid var(--bg);
+  border-radius: 10px;
+  font-size: 20px;
+  color: #e0dfdc;
+    background-color: #333;
+    letter-spacing: .1em;
+    text-shadow:
+      0 -1px 0 #fff,
+      0 1px 0 #2e2e2e,
+      0 2px 0 #2c2c2c,
+      0 3px 0 #2a2a2a,
+      0 4px 0 #282828,
+      0 5px 0 #262626,
+      0 6px 0 #242424,
+      0 7px 0 #222,
+      0 8px 0 #202020,
+      0 9px 0 #1e1e1e,
+      0 10px 0 #1c1c1c,
+      0 11px 0 #1a1a1a,
+      0 12px 0 #181818,
+      0 13px 0 #161616,
+      0 14px 0 #141414,
+      0 15px 0 #121212,
+      0 22px 30px rgba(0, 0, 0, 0.9);
+      opacity: 0.5;
+
+}
+
+
+#logo:hover{
+  color:var(--bo);
+  background-color: var(--bg);
+  opacity: 0.9;
+}
+
+
+#bhome{
+	display: inline-block;
+	position:absolute;
+	left:3%;
+	top:23%;
+    color: var(--nc);
+    font-weight: bold;
+	font-family:"Courier New", Courier, monospace;
+    background-color: var(--bg);
+    padding: 1% 4%;
+    font-size: 162%;
+    border: 1px solid var(--bo);
+}
+
+#bhome:hover{
+	background-color:var(--bo) ;
+	color:var(--nc);
+}
+#babout{
+	display: block;
+	position:absolute;
+	top:5%;
+	right:2.5%;
+    color: var(--nc);
+    font-weight: bold;
+	font-family:"Courier New", Courier, monospace;
+    background-color: var(--bg);
+    padding:1% 3.2%;
+    font-size: 120%;
+    border: 1px solid var(--bo);
+}
+
+#babout:hover{
+	background-color:var(--bo) ;
+	color:var(--nc);
+}
+
+#bcon{
+	display:block;
+	position:absolute;
+	top:50%;
+	right:2.5%;
+	color: var(--nc);
+    font-weight: bold;
+	font-family:"Courier New", Courier, monospace;
+    background-color: var(--bg);
+    padding:1% 1.9%;
+    font-size: 120%;
+    border: 1px solid var(--bo);
+}
+
+#bcon:hover{
+	background-color:var(--bo) ;
+	color:var(--nc);
+}

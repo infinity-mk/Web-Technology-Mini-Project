@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+:root {
+  --bg: #212121;
+  --nc: #F5F5F5;
+  --bo: #2d6898;
+}
+
+
+
+#menu{
+	left:0;
+	top:15%;
+	width:100%;
+	height:70%;
+	position:absolute;
+}
+
+#elect{
+	display: inline-block;
+	position:absolute;
+	left:12%;
+	top:23%;
+	width:17%;
+	height:10%;
+    color: var(--nc);
+    font-weight: bold;
+	font-size:162%;
+	font-family:"Courier New", Courier, monospace;
+    background-color: var(--bg);
+    border: 1px solid var(--bo);
+	text-align:center;
+	vertical-align:middle;
+	line-height:10%;
+
+}
+
+
+#cloth{
+	display: inline-block;
+	position:absolute;
+	left:42%;
+	top:23%;
+	width:17%;
+	height:10%;
+    color: var(--nc);
+    font-weight: bold;
+	font-family:"Courier New", Courier, monospace;
+    background-color: var(--bg);
+    font-size:162%;
+    border: 1px solid var(--bo);
+	text-align:center;
+	vertical-align:middle;
+	line-height:10%;
+}
+
+#homea{
+	display: inline-block;
+	position:absolute;
+	left:72%;
+	top:23%;
+	width:17%;
+	height:10%;
+    color: var(--nc);
+    font-weight: bold;
+	font-family:"Courier New", Courier, monospace;
+    background-color: var(--bg);
+   	font-size:162%;
+    border: 1px solid var(--bo);
+	text-align:center;
+	vertical-align:middle;
+	line-height:10%;
+}
+
+
+
+
+#elect:hover{
+	background-color:var(--bo);
+}
+
+#cloth:hover{
+	background-color:var(--bo);
+}
+
+#homea:hover{
+	background-color:var(--bo);
+}
+
+#sports:hover{
+	background-color:var(--bo);
+}
+
+#books:hover{
+	background-color:var(--bo);
+}
